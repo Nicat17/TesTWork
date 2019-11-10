@@ -1,0 +1,11 @@
+C:\Users\Nicat\Desktop\GIT Learing\GitLearningApp\GitLearningApp\bin\Debug\netcoreapp2.1\GitLearningApp.deps.json
+C:\Users\Nicat\Desktop\GIT Learing\GitLearningApp\GitLearningApp\bin\Debug\netcoreapp2.1\GitLearningApp.runtimeconfig.json
+C:\Users\Nicat\Desktop\GIT Learing\GitLearningApp\GitLearningApp\bin\Debug\netcoreapp2.1\GitLearningApp.runtimeconfig.dev.json
+C:\Users\Nicat\Desktop\GIT Learing\GitLearningApp\GitLearningApp\bin\Debug\netcoreapp2.1\GitLearningApp.dll
+C:\Users\Nicat\Desktop\GIT Learing\GitLearningApp\GitLearningApp\bin\Debug\netcoreapp2.1\GitLearningApp.pdb
+C:\Users\Nicat\Desktop\GIT Learing\GitLearningApp\GitLearningApp\obj\Debug\netcoreapp2.1\GitLearningApp.csprojAssemblyReference.cache
+C:\Users\Nicat\Desktop\GIT Learing\GitLearningApp\GitLearningApp\obj\Debug\netcoreapp2.1\GitLearningApp.csproj.CoreCompileInputs.cache
+C:\Users\Nicat\Desktop\GIT Learing\GitLearningApp\GitLearningApp\obj\Debug\netcoreapp2.1\GitLearningApp.AssemblyInfoInputs.cache
+C:\Users\Nicat\Desktop\GIT Learing\GitLearningApp\GitLearningApp\obj\Debug\netcoreapp2.1\GitLearningApp.AssemblyInfo.cs
+C:\Users\Nicat\Desktop\GIT Learing\GitLearningApp\GitLearningApp\obj\Debug\netcoreapp2.1\GitLearningApp.dll
+C:\Users\Nicat\Desktop\GIT Learing\GitLearningApp\GitLearningApp\obj\Debug\netcoreapp2.1\GitLearningApp.pdb
