@@ -2,6 +2,10 @@
 {
     class Program
     {
+        private static void SetDelegate(System.Action<object> action)
+        {
+            action("");
+        }
         static void Main(string[] args)
         {
             try
