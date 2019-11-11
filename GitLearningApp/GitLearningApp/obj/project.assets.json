@@ -687,11 +687,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Nicat\\Desktop\\Git\\TesTWork\\GitLearningApp\\GitLearningApp\\GitLearningApp.csproj",
+      "projectUniqueName": "C:\\Users\\Nicat\\Desktop\\GIT Learing\\GitLearningApp\\GitLearningApp\\GitLearningApp.csproj",
       "projectName": "GitLearningApp",
-      "projectPath": "C:\\Users\\Nicat\\Desktop\\Git\\TesTWork\\GitLearningApp\\GitLearningApp\\GitLearningApp.csproj",
+      "projectPath": "C:\\Users\\Nicat\\Desktop\\GIT Learing\\GitLearningApp\\GitLearningApp\\GitLearningApp.csproj",
       "packagesPath": "C:\\Users\\Nicat\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Nicat\\Desktop\\Git\\TesTWork\\GitLearningApp\\GitLearningApp\\obj\\",
+      "outputPath": "C:\\Users\\Nicat\\Desktop\\GIT Learing\\GitLearningApp\\GitLearningApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
