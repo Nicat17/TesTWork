@@ -687,19 +687,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
-      "projectUniqueName": "C:\\Users\\Nicat\\Desktop\\Git\\TesTWork\\GitLearningApp\\GitLearningApp\\GitLearningApp.csproj",
+      "projectUniqueName": "C:\\Users\\Nicat\\Desktop\\GIT Learing\\GitLearningApp\\GitLearningApp\\GitLearningApp.csproj",
       "projectName": "GitLearningApp",
-      "projectPath": "C:\\Users\\Nicat\\Desktop\\Git\\TesTWork\\GitLearningApp\\GitLearningApp\\GitLearningApp.csproj",
+      "projectPath": "C:\\Users\\Nicat\\Desktop\\GIT Learing\\GitLearningApp\\GitLearningApp\\GitLearningApp.csproj",
       "packagesPath": "C:\\Users\\Nicat\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Nicat\\Desktop\\Git\\TesTWork\\GitLearningApp\\GitLearningApp\\obj\\",
-=======
-      "projectUniqueName": "C:\\Users\\Nicat\\Desktop\\Git Rep\\GitLearningApp\\GitLearningApp\\GitLearningApp.csproj",
-      "projectName": "GitLearningApp",
-      "projectPath": "C:\\Users\\Nicat\\Desktop\\Git Rep\\GitLearningApp\\GitLearningApp\\GitLearningApp.csproj",
-      "packagesPath": "C:\\Users\\Nicat\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Nicat\\Desktop\\Git Rep\\GitLearningApp\\GitLearningApp\\obj\\",
->>>>>>> 49d46ca1eb89e44b505bc04ddf46d3cbc2a5ef6e
+      "outputPath": "C:\\Users\\Nicat\\Desktop\\GIT Learing\\GitLearningApp\\GitLearningApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -742,5 +734,13 @@
         "warn": true
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\Nicat\\Desktop\\GIT Learing\\GitLearningApp\\GitLearningApp\\obj\\GitLearningApp.csproj.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

@@ -9,18 +9,26 @@
                 System.Threading.Thread thread = new System.Threading
                 .Thread(new System.Threading.ParameterizedThreadStart(delegate (object x)
                 {
-                    string currentDir = System.IO.Directory.GetCurrentDirectory();
-
-                    string fileName = "example.txt";
-
-                    string fullName = System.IO.Path.Combine(currentDir, fileName);
-
-                    if (!System.IO.File.Exists(fullName))
+                    //Qoy Partdasin
+                    try
                     {
-                        System.IO.File.Create(fullName);
+                        string currentDir = System.IO.Directory.GetCurrentDirectory();
+
+                        string fileName = "example.txt";
+
+                        string fullName = System.IO.Path.Combine(currentDir, fileName);
+
+                        if (!System.IO.File.Exists(fullName))
+                        {
+                            System.IO.File.Create(fullName);
+                        }
+                        else
+                            throw new System.Exception("File already has here");
                     }
-                    else
-                        throw new System.Exception("File already has here");
+                    catch (System.Exception)
+                    {
+                        throw;
+                    }
                 }));
 
                 thread.Start();
