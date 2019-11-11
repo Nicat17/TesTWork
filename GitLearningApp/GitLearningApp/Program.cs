@@ -4,24 +4,31 @@
     {
         static void Main(string[] args)
         {
-            System.Threading.Thread thread = new System.Threading
-                .Thread(new System.Threading.ParameterizedThreadStart(delegate(object x) 
+            try
             {
-                string currentDir = System.IO.Directory.GetCurrentDirectory();
-
-                string fileName = "example.txt";
-
-                string fullName = System.IO.Path.Combine(currentDir,fileName);
-
-                if (!System.IO.File.Exists(fullName))
+                System.Threading.Thread thread = new System.Threading
+                .Thread(new System.Threading.ParameterizedThreadStart(delegate (object x)
                 {
-                    System.IO.File.Create(fullName);
-                }
-                else
-                    System.Console.WriteLine("Already has file");
-            }));
+                    string currentDir = System.IO.Directory.GetCurrentDirectory();
 
-            thread.Start();
+                    string fileName = "example.txt";
+
+                    string fullName = System.IO.Path.Combine(currentDir, fileName);
+
+                    if (!System.IO.File.Exists(fullName))
+                    {
+                        System.IO.File.Create(fullName);
+                    }
+                    else
+                        throw new System.Exception("File already has here");
+                }));
+
+                thread.Start();
+            }
+            catch (System.Exception exp)
+            {
+                System.Console.WriteLine(exp.Message);
+            }
 
             System.Console.ReadLine();
         }
