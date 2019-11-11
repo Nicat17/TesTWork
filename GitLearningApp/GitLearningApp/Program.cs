@@ -2,9 +2,9 @@
 {
     class Program
     {
-        private static void SetDelegate(System.Action<object> action)
+        private static string SetDelegate(System.Action<object> action)
         {
-            action("");
+            return "Qoy partdasin";
         }
         static void Main(string[] args)
         {
